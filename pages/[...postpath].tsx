@@ -25,7 +25,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 		};
 		} 
 
-	if (referringURL?.includes('threads.net') || threadsNetRef) {
+	if (referringURL?.includes('threads.net') || threadsNet) {
 
 		return {
 			redirect: {
